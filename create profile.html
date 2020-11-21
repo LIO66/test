@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ"
+      crossorigin="anonymous"
+    />
+    <!-- google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome cdn -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <!--stylesheet link--->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Tutree</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="https://www.careerbuilder.co.in/cdn/assets/logos/cb_logo_navy-f99fc96c6c71fe50ef2d1bb09f0788d4657b16c4718b5d12030413b7fff413ac.svg" alt=""></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link "
+                aria-current="page"
+                href="find job.html"
+                >Find job</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="create profile.html"
+                >Create your profile</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="candiate signIn.html">Recommendation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Employers
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Employer Sign In</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Employers</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Search Resume</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Post Job</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sign in.html">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar ends-->
+
+    <!-- create profile -->
+    <section class="create-profile" id="create-profile">
+      <h3>Register</h3>
+    </section>
+    <div class="container-fluid">
+    <form class="containerForm-register">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="Password" class="label">Create Password</label>
+        <input type="password" class="form-control" id="Password" />
+      </div>
+      <div class="mb-3">
+        <label for="First-name" class="label">First Name</label>
+        <input type="password" class="form-control" id="Password" />
+      </div>
+      <div class="mb-3">
+        <label for="last-name" class="label">Last Name</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="city" class="label">City</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="postal code" class="label">Postal Code</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="country" class="label">Country</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+        />
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">
+          Send me regular job search advice, work tips and Customiz ed content
+          direct to my inbox.
+        </label>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">
+          i agree to Terms & Condition
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <div class="feedback-modal">
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="feedback-btn"
+      data-toggle="modal"
+      data-target="#exampleModal"
+    >
+      <img
+        src="https://sjc1.qualtrics.com/WRQualtricsSiteIntercept/Graphic.php?IM=IM_ahfDctzCaWqOnk1"
+      />
+    </button>
+
+    <!-- Modal -->
+    <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+      
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-dismiss="modal"
+                aria-label="Close"
+              ></button>
+              
+            </div>
+            <div class="logo-container">
+              
+              <h5>What type of feedback would you like to leave for us?</h5>
+            
+          </div>
+          
+            <div class="modal-t-form">
+              <div class="modal-t-form-header">
+                <nav aria-label="breadcrumb" id="textarea-trigger">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Suggestion for general feedback</li>
+                  </ol>
+                </nav>
+                <nav aria-label="breadcrumb" id="textarea-trigger-2">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Bugs aur site issue</li>
+                  </ol>
+                </nav>
+                <nav aria-label="breadcrumb" id="textarea-trigger-3"> 
+                    <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Question</li>
+                  </ol>
+                </nav>                            
+              </div>
+              <div class="textarea-1">
+                <p><b>what would you like to share with us?</b></p>
+                <textarea></textarea>
+              </div>
+              <div class="textarea-2">
+                <p>If you have encountered a bug or site issue or if you have a question for customer support, please visit our job-seeker support page.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      
+  <!-- end modal -->
+
+    <!-- end search job -->
+    <!-- footer -->
+<footer>
+  <div class="top-footer">
+    <h3>Need help? Contact us</h3>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md my-2">
+          <span class="footer-title">JOB SEEKERS</span>
+              <ul>
+              <li> Browse All Jobs</li>
+               <li>Search by Location</li>
+               <li>Job Categories</li>
+               <li>Jobs By Company</li>
+               <li>Add your Resume</li>
+              </ul>
+        </div>
+        <div class="col-md my-2">
+          <span class="footer-title">EMPLOYERS</span>
+          <ul>
+            <li>Search Resume</li>
+            <li>post job</li>
+            <li>Blog Link</li>
+          </ul>
+        </div>
+      
+        <div class="col-md my-2">
+          <span class="footer-title">LEGAL</span>
+          <ul>
+            <li>Terms & condition</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+      
+        <div class="col-md my-2">
+          <span class="footer-title">CAREERBUILDER</span>
+          <ul>
+            <li>About us</li>
+          </ul>
+        </div>
+
+        <div class="col-md my-2">
+          <span class="footer-title">SOCIAL</span>
+          <ul>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+          </ul>
+        </div>
+      
+      
+      </div>
+      <div class="span">
+        <span>© 2020 CareerBuilder, LLC. All rights reserved. Disclaimer: CareerBuilder India does not charge job seekers any fee or other consideration for using our services.</span>
+      </div>
+
+    </div>
+  </div>
+  
+
+
+</footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="./main.js"></script>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper.js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper.js and Bootstrap JS-
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-t6I8D5dJmMXjCsRLhSzCltuhNZg6P10kE0m0nAncLUjH6GeYLhRU1zfLoW3QNQDF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
